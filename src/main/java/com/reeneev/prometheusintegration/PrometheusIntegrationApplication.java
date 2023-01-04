@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class PrometheusIntegrationApplication {
-	final static Logger logger = LoggerFactory.getLogger(
+	static final Logger logger = LoggerFactory.getLogger(
 			PrometheusIntegrationApplication.class);
 
 	public static void main(String[] args) {
